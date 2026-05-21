@@ -1,0 +1,37 @@
+
+========================
+BIRDCLEF 2026 EDA REPORT
+========================
+
+--- DATASET ---
+Total recordings          : 35549
+Unique species (train)    : 206
+Unique species (taxonomy) : 234
+Zero-shot species         : 28
+Duplicate rows            : 0
+
+--- CLASS IMBALANCE ---
+Species with <10 samples  : 25
+Species with <20 samples  : 36
+Species with <50 samples  : 52
+
+--- AUDIO ---
+Average duration          : 34.88 sec
+Median duration           : 21.00 sec
+Shortest clip             : 0.0080 sec
+Longest clip              : 6881.10 sec
+Corrupted files           : 0
+Files < 1 sec             : 370   (discard)
+Files 1–2 sec             : 0   (repeat-pad)
+Files > 600 sec           : 38   (suspicious)
+
+--- SECONDARY LABELS ---
+Recordings with sec labels: 4372 (12.3%)
+
+--- SOUNDSCAPE ---
+Avg species per segment   : 4.22
+Max species in segment    : 10
+
+--- TENSOR ---
+Target shape              : (3, 128, 313)
+Shape verified            : YES
